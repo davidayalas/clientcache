@@ -11,15 +11,19 @@ cache = Cache.getinstance callback [, debug as boolean]
 Methods
 --------
 
-cache.set key, value[, ttl in milliseconds][, callback] 
+*	cache.**set** key, value[, ttl in milliseconds][, callback] 
 
-cache.get key, callback
+*	cache.**get** key, callback
 
-cache.del key
+	callback gets the value as argument<br /><br />
 
-cache.clear
+*	cache.**del** key <br /><br />
 
-cache.getAllKeys callback
+*	cache.**clear**
+
+*	cache.**getAllKeys** callback
+	
+	callback gets an Array as argument
 
 Sample
 -------
