@@ -15,9 +15,9 @@ Methods
 
 *	cache.**get** key, callback
 
-	callback gets the value as argument<br /><br />
+	callback gets the value as argument<br />
 
-*	cache.**del** key <br /><br />
+*	cache.**del** key <br />
 
 *	cache.**clear**
 
